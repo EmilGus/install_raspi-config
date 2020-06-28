@@ -13,7 +13,7 @@ else
   apt-get install libnewt0.52 whiptail parted triggerhappy lua5.1 alsa-utils -y
   # Auto install dependancies on eg. ubuntu server on RPI
   apt-get install -fy
-  dpkg -i /tmp/raspi-config_20160527_all.deb
+  dpkg -i /tmp/raspi-config_20200601_all.deb
   whiptail --msgbox "Raspi-config is now installed, run it by typing: sudo raspi-config" 10 60
 fi
 
